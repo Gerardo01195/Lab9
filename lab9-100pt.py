@@ -13,3 +13,19 @@
 # - A temperature of over 105F
 # - A temperature of over 102F and they have been sick in the last 24 hours
 # - A temperature over 100, OR they've been sick in the last 24 hours, AND they've recently travelled to West Africa.
+
+
+print "have you been sick in the last 24 hours?"
+sick = raw_input()
+
+print "have you visited west africa?"
+yes = raw_input()
+
+print " what is your temperature?"
+temp = raw_input()
+
+print "if temperature is over 105F"
+wow = raw_input()
+
+print "then you will have to go to the hospital"
+hospital = raw_input()
